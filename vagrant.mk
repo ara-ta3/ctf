@@ -1,5 +1,5 @@
 VAGRANT=$(shell which vagrant)
-commands=up halt
+commands=up halt ssh
 
 $(commands): $(VAGRANT)
 	$< $@

@@ -8,3 +8,6 @@ vagrant-up-ubuntu16:
 
 vagrant-halt-ubuntu16:
 	$(MAKE) -C ubuntu halt
+
+vagrant-ssh-ubuntu16:
+	$(MAKE) -C ubuntu ssh
